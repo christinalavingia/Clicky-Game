@@ -1,0 +1,23 @@
+.navbar li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .itemLeft {
+    width: 20%;
+  }
+  
+  .itemCenter {
+      width: 65%;
+  }
+  
+  .itemRight {
+    width: 15%;
+  }
+  
+  body {
+    font-size: 24px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+  }
+  
