@@ -9,13 +9,15 @@ class App extends React.Component {
   state = {
     chiefs,
     clickedChiefs: [],
-    score: 0
+    score: 0,
+    highScore: 0,
+    gameWon: false
   };
 
   imageClick = event => {
     const currentChief = event.target.alt;
     const ChiefAlreadyClicked =
-      this.state.clickedChief.filter(currentChief) > -1;
+      this.state.clickedChiefs.filter(currentChief) > -1;
 
     if (ChiefAlreadyClicked) {
       this.setState({
