@@ -1,51 +1,75 @@
 [
     {
       "id": 1,
-      "image": "patrick-mahomes.png"
+      "name": "Patrick Mahomes",
+      "image": "patrick-mahomes.png",
+      "count": 0
     },
     {
       "id": 2,
-      "image": "tyreek-hill.png"    
+      "name": "Tyreek Hill",
+      "image": "tyreek-hill.png",
+      "count": 0
     },
     {
       "id": 3,
-      "image": "travis-kelce.png"
+      "name": "Travis Kelce",
+      "image": "travis-kelce.png",
+      "count": 0
     },
     {
       "id": 4,
-      "image": "eric-fisher.png" 
+      "name": "Eric Fisher",
+      "image": "eric-fisher.png",
+      "count": 0
     },
     {
       "id": 5,
-      "image": "dustin-colquitt.png"
+      "name": "Dustin Colquitt",
+      "image": "dustin-colquitt.png",
+      "count": 0
     },
     {
       "id": 6,
-      "image": "harrison-butker.png"
+      "name": "Harrison Butker",
+      "image": "harrison-butker.png",
+      "count": 0
     },
     {
       "id": 7,
-      "image": "damien-williams.png"
+      "name": "Damien Williams",
+      "image": "damien-williams.png",
+      "count": 0
     },
     {
       "id": 8,
-      "image": "chris-jones.png"
+      "name": "Chris Jones",
+      "image": "chris-jones.png",
+      "count": 0
     },
     {
       "id": 9,
-      "image": "sammy-watkins.png"
+      "name": "Sammy Watkins",
+      "image": "sammy-watkins.png",
+      "count": 0
     },
     {
       "id": 10,
-      "image": "mitchell-schwartz.png"
+      "name": "Mitchell Schwartz",
+      "image": "mitchell-schwartz.png",
+      "count": 0
     },
     {
       "id": 11,
-      "image": "reggie-ragland.png"
+      "name": "Reggie Ragland",
+      "image": "reggie-ragland.png",
+      "count": 0
     },
     {
       "id": 12,
-      "image": "cam-erving.png"
+      "name": "Cam Erving",
+      "image": "cam-erving.png",
+      "count": 0
     }
   ]
   
