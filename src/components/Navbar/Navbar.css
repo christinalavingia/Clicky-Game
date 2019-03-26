@@ -1,6 +1,8 @@
 .navbar li {
     display: inline-block;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
   }
   
   .itemLeft {
@@ -8,16 +10,9 @@
   }
   
   .itemCenter {
-      width: 65%;
+      width: 50%;
   }
   
   .itemRight {
-    width: 15%;
+    width: 20%;
   }
-  
-  body {
-    font-size: 24px;
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: bold;
-  }
-  

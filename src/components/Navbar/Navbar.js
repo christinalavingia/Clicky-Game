@@ -8,7 +8,7 @@ class Navbar extends Component {
          <ul>
           <li className="itemLeft">Chiefs Memory Game</li>
           <li className="itemCenter">Click an Image to Begin</li>
-          <li className="itemRight">Score: {this.props.score}</li>
+          <li className="itemRight">Score: {this.props.score} | High Score: {this.props.highScore}</li>
         </ul>
       </nav>
     );
