@@ -11,20 +11,25 @@ class App extends React.Component {
     clickedChiefs: [],
     score: 0,
     highScore: 0,
-    gameWon: false
+    gameWon: false,
   };
 
   imageClick = event => {
+    let chiefAlreadyClicked = false;
     const currentChief = event.target.alt;
-    const ChiefAlreadyClicked =
-      this.state.clickedChiefs.filter(currentChief) > -1;
 
-    if (ChiefAlreadyClicked) {
+    for (let i = 0; i < this.state.clickedChiefs.length; i++) {
+      if (this.state.clickedChiefs[i] === currentChief)
+        chiefAlreadyClicked = true;
+    } 
+
+    if (chiefAlreadyClicked) {
       this.setState({
         chiefs: this.state.chiefs.sort(function(a, b) {
           return 0.5 - Math.random();
         }),
         clickedChiefs: [],
+        highScore: this.state.score,
         score: 0
       });
         alert("You clicked the same Chief! You lose, play again?");
@@ -35,10 +40,11 @@ class App extends React.Component {
           chiefs: this.state.chiefs.sort(function(a, b) {
             return 0.5 - Math.random();
           }),
-          clickedChiefs: this.state.clickedChiefs.push(
+          clickedChiefs: this.state.clickedChiefs.concat(
             currentChief
           ),
-          score: this.state.score + 1
+          score: this.state.score + 1,
+
         },
         () => {
           if (this.state.score === 12) {
@@ -48,7 +54,8 @@ class App extends React.Component {
                 return 0.5 - Math.random();
               }),
               clickedChiefs: [],
-              score: 0
+              score: 0,
+              highScore: 12
             });
           }
         }
@@ -61,15 +68,16 @@ class App extends React.Component {
       <div>
         <Navbar 
           score={this.state.score}
+          highScore={this.state.highScore}
         />
         <Jumbotron />
         <div className="wrapper">
-          {this.state.chiefs.map(chiefs => (
+          {this.state.chiefs.map(chief => (
             <PlayerCard
               imageClick={this.imageClick}
-              id={chiefs.id}
-              key={chiefs.id}
-              image={chiefs.image}
+              id={chief.id}
+              key={chief.id}
+              image={chief.image}
             />
           ))}
         </div>

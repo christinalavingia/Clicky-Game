@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6836c35fc62a83284c1ee5657786bb75",
-    "url": "/static/media/eric-fisher.6836c35f.png"
+    "revision": "5ee576ebd84a7dfc9a82",
+    "url": "/static/css/main.e1175ac6.chunk.css"
   },
   {
-    "revision": "d9b2cc1c6f0eb10467f0",
-    "url": "/static/css/main.6a25d67f.chunk.css"
+    "revision": "5ee576ebd84a7dfc9a82",
+    "url": "/static/js/main.923f0400.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -14,6 +14,10 @@ self.__precacheManifest = [
   {
     "revision": "973eca460e14e0ddebe0",
     "url": "/static/js/2.693cc7d6.chunk.js"
+  },
+  {
+    "revision": "b9c9fde45db8d4511b9c983ed3ad831a",
+    "url": "/static/media/kansas-city.b9c9fde4.png"
   },
   {
     "revision": "71f3ec5813ceafb9078bf271b2e5a5ad",
@@ -32,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/dustin-colquitt.c2b03ffc.png"
   },
   {
-    "revision": "d9b2cc1c6f0eb10467f0",
-    "url": "/static/js/main.927b7269.chunk.js"
+    "revision": "6836c35fc62a83284c1ee5657786bb75",
+    "url": "/static/media/eric-fisher.6836c35f.png"
   },
   {
     "revision": "423a7aee8c3349cc869883d0675a0bf4",
@@ -64,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/tyreek-hill.514d250f.png"
   },
   {
-    "revision": "69a71e57df3c98665c537bd32f063d65",
+    "revision": "6af1105e1b52e7aa687576fc3fdc9c8d",
     "url": "/index.html"
   }
 ];
